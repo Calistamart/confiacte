@@ -748,3 +748,200 @@
 .footer-column a:hover {
   text-decoration: underline;
 }
+
+
+/* ValuesSection */
+
+.values-section {
+  /* Ajoutez vos styles personnalisés ici */
+}
+
+.hero-video .inner-video {
+  position: relative;
+}
+
+.hero-video .thumbnail {
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-video .thumbnail-img {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-video .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-video .inner-heading {
+  padding: 20px;
+}
+
+.editorial-part.classic {
+  padding: 20px;
+}
+
+.editorial-part.img_text .inner-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.editorial-part.img_text .wrapper_1110 .text {
+  padding: 20px;
+}
+
+.related-posts .wrapper_1110 {
+  padding: 20px;
+}
+
+.related-posts .view-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* ContactDetail */
+
+.contact-page {
+  /* Ajoutez vos styles personnalisés ici */
+}
+
+.hero-all-etudes {
+  position: relative;
+  text-align: center;
+}
+
+.hero-all-etudes .parallax-cities {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-all-etudes .bottom {
+  bottom: 0;
+}
+
+.hero-all-etudes .top {
+  top: 0;
+}
+
+.hero-all-etudes .wrapper_1110 {
+  padding: 20px;
+}
+
+.hero-all-etudes .heading {
+  padding: 20px;
+}
+
+.blocs_w50 {
+  display: inline-block;
+  width: 45%;
+  margin: 0 2.5%;
+  text-align: left;
+}
+
+.inner-input {
+  margin-bottom: 20px;
+}
+
+.inner-input_w50 {
+  width: 48%;
+  display: inline-block;
+}
+
+.inner-input_w100 {
+  width: 100%;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.underline {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit-button {
+  background: #32373c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-bg {
+  background: #ccc;
+  height: 2px;
+  width: 100%;
+  display: block;
+}
+
+
+/* Notary */
+
+.single-notary {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profil-notary {
+  width: 100%;
+  height: auto;
+}
+
+.name h2 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.name h3 {
+  font-size: 16px;
+  color: #777;
+}
+
+
+
+/* Notaries */
+
+
+.hero-index {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.wrapper_1110 {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.notaries-associes {
+  padding: 50px 0;
+}
+
+.inner-notaries-associes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

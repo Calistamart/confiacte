@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../Common/Logo.js'
 
 const Header = () => {
@@ -24,8 +25,8 @@ const Header = () => {
 
       <div id="nav-right" className={isOpen ? 'open' : ''}>
         <ul className="nav-menu">
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/nos-valeurs">Nos valeurs</a></li>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/nos-valeurs">Nos valeurs</Link></li>
           <li><a href="/les-notaires">Les notaires</a></li>
           <li><a href="/toulouse">Toulouse</a></li>
           <li><a href="/paris">Paris</a></li>
