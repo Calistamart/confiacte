@@ -21,7 +21,7 @@ const notaries = [
 const ProfileSection = () => {
   return (
     <section className="profile-section">
-      <div className="wrapper_1110">
+      <div className="wrapper_el">
         <div className="inner-profil">
           <h2>Des expertises adaptées à votre besoin</h2>
           <p>Une étude généraliste avec des savoir-faire de spécialistes. Vous écouter, vous conseiller et vous accompagner en offrant sécurité et efficacité.</p>

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/main.css';
 import './styles/components.css';
+import './styles/style_classes.css';
 import App from './App.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

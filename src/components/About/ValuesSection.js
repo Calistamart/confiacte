@@ -4,9 +4,9 @@ const ValuesSection = () => {
   return (
     <div className="values-section">
       <section className="hero-video">
-        <div className="inner-video">
+        <div className="h100 w100 pos-rel">
           <div className="youtube-player hero-player" data-id="oetgY1-GHP8">
-            <div className="thumbnail">
+            <div className="pos-rel cursor-point">
               <div className="thumbnail-img" style={{ background: "url('https://www.blnotaires.fr/wp-content/uploads/2019/05/Capture-d’écran-2019-05-07-à-09.28.09.png') 50% 50%" }}></div>
               <div className="play-btn">
                 <img src="https://www.blnotaires.fr/wp-content/themes/etudebl/library/images/icons/play-btn.svg" alt="Play Button" />
@@ -17,7 +17,7 @@ const ValuesSection = () => {
           </div>
         </div>
         <div className="inner-heading">
-          <div className="wrapper_1110">
+          <div className="wrapper_el">
             <div className="heading">
               <div className="inner-title">
                 <h1>Nos valeurs</h1>
@@ -50,7 +50,7 @@ const ValuesSection = () => {
         <div className="inner-img">
           <img src="https://www.blnotaires.fr/wp-content/uploads/2019/05/IMG_0726-1600x1200.jpg" alt="Notre Identité" />
         </div>
-        <div className="wrapper_1110">
+        <div className="wrapper_el">
           <div className="text">
             <h2>Notre identité</h2>
             <p>Une étude généraliste avec des savoir-faire de spécialistes.</p>
@@ -60,11 +60,11 @@ const ValuesSection = () => {
       </section>
 
       <section className="related-posts">
-        <div className="wrapper_1110">
+        <div className="wrapper_el">
           <h3 className="section-label">News</h3>
           <h2>Les actualités de l'Étude</h2>
         </div>
-        <div className="wrapper_1110 inner-cards">
+        <div className="wrapper_el inner-cards">
           {/* Ajoutez ici le contenu dynamique des actualités */}
         </div>
         <div className="view-more">

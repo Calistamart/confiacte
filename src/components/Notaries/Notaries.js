@@ -41,7 +41,7 @@ const Notaries = () => {
     },
     {
       name: 'Laetitia Quesnel',
-      location: 'Notaire Paris',
+      location: 'Notaire Grenoble',
       imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Quesnel-Laetitia-1.jpg',
       link: 'https://www.blnotaires.fr/notaire/laetitia-quesnel/',
     },
@@ -56,7 +56,7 @@ const Notaries = () => {
   return (
     <div className="notaries-container">
       <section className="hero-index hero-index-notaries">
-        <div className="wrapper_1110">
+        <div className="wrapper_el">
           <div className="heading">
             <h1>Les notaires associés</h1>
             <p>&nbsp;</p>
@@ -65,8 +65,7 @@ const Notaries = () => {
       </section> 
 
       <section className="notaries-associes">
-        <div className="wrapper_1110">
-          <div className="inner-notaries-associes">
+        <div className="wrapper_el cards">
             {notaries.map((notary, index) => (
               <Notary
                 key={index}
@@ -76,7 +75,6 @@ const Notaries = () => {
                 link={notary.link}
               />
             ))}
-          </div>
         </div>
       </section>
     </div>

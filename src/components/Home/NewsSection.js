@@ -19,7 +19,7 @@ const news = [
 const NewsSection = () => {
   return (
     <section className="news-section">
-      <div className="wrapper_1110">
+      <div className="wrapper_el">
         <div className="inner-news">
           <h3 className="section-label">News</h3>
           <h2>Les actualités de l'Étude</h2>

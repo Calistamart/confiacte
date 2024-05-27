@@ -5,7 +5,7 @@ const ExpertisesSection = () => {
     <section className="entry-expertises" id="expertises">
       <img className="parallax-letter" id="letter-1" src="https://www.blnotaires.fr/wp-content/themes/etudebl/library/images/letter-b-b.svg" alt="Letter B" />
       <img className="parallax-letter" id="letter-2" src="https://www.blnotaires.fr/wp-content/themes/etudebl/library/images/letter-l-w.svg" alt="Letter L" />
-      <div className="wrapper_1110">
+      <div className="wrapper_el">
         <div className="inner-expertises">
           <h3 className="section-label">Expertises en droit</h3>
           <ul className="expertises-list" id="expertises-list">
