@@ -28,8 +28,6 @@ const Header = () => {
           <li><Link to="/">Accueil</Link></li>
           <li><Link to="/nos-valeurs">Nos valeurs</Link></li>
           <li><a href="/les-notaires">Les notaires</a></li>
-          <li><a href="/toulouse">Toulouse</a></li>
-          <li><a href="/paris">Grenoble</a></li>
           <li><a href="/publications">Publications</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>

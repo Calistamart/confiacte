@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ExpertisesSection = () => {
   return (
@@ -10,11 +11,11 @@ const ExpertisesSection = () => {
           <h3 className="section-label">Expertises en droit</h3>
           <ul className="expertises-list" id="expertises-list">
             <li>
-              <a href="https://www.blnotaires.fr/notaire-toulouse-immobilier/">
+            <Link to="/immobilier">
                 Immobilier
                 <div></div>
                 <span>En savoir plus</span>
-              </a>
+            </Link>
             </li>
             <li>
               <a href="https://www.blnotaires.fr/notaire-toulouse-particuliers/">

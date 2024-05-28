@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import ValuesSection from './components/About/ValuesSection';
 import ContactDetails from './components/Contact/ContactDetails';
 import Notaries from './components/Notaries/Notaries';
+import RealEstate from './components/About/RealEstate';
 
 const Home = () => (
   <div>
@@ -31,7 +32,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/nos-valeurs" element={<ValuesSection />} />
           <Route path="/les-notaires" element={<Notaries />} />
+          <Route path='/immobilier' element={<RealEstate />} />
           <Route path="/contact" element={<ContactDetails />} />
+          <Route path="/publications" element={<NewsSection />} />
         </Routes>
         <Footer />
       </div>

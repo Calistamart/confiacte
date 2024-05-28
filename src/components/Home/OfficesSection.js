@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../Common/Logo'
 import toulouse_img from '../../assets/toulouse.jpg'
+import grenoble_img from '../../assets/grenoble.jpg'
 
 const OfficesSection = () => {
     const toulouse = toulouse_img;
@@ -26,7 +27,7 @@ const OfficesSection = () => {
             <a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-paris/" className="single-office second">
               <div className="rect-anim"></div>
               <div className="inner-single">
-                <img src="https://www.blnotaires.fr/wp-content/uploads/2019/05/IMG_0048-450x550.jpeg" alt="Office Grenoble" />
+                <img src={grenoble_img} alt="Office Grenoble" />
                 <h3>Grenoble</h3>
               </div>
             </a>

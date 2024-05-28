@@ -1,16 +1,18 @@
 import React from 'react';
+import img1 from '../../assets/news1.jpg'
+import img2 from '../../assets/news2.jpg'
 
 const news = [
   {
-    title: 'Actualité 1',
-    description: 'Description de l\'actualité 1.',
-    img: 'https://via.placeholder.com/450',
+    title: 'Un nouveau départ immobilier',
+    description: 'À Toulouse, la notaire Michèle accompagne un jeune couple enthousiaste dans les démarches d\'achat de leur première maison, symbolisant un nouveau départ dans leur vie commune.',
+    img: img1,
     link: '/actualite-1'
   },
   {
-    title: 'Actualité 2',
-    description: 'Description de l\'actualité 2.',
-    img: 'https://via.placeholder.com/450',
+    title: 'La sécurité dans la succession',
+    description: 'Patrick, notaire à Toulouse, rencontre un homme âgé chez lui pour sécuriser son testament, assurant une transmission sereine de son héritage dans un cadre intime et respectueux.',
+    img: img2,
     link: '/actualite-2'
   },
   // Ajoutez d'autres actualités ici

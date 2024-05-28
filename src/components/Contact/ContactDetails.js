@@ -12,7 +12,7 @@ const ContactDetails = () => {
             <div className="blocs_w50">
               <div></div>
               <h2>Grenoble</h2>
-              <p>Située en plein coeur du XVIème arrondissement de Grenoble, au 111, rue de Longchamp, l'Étude occupe le rez-de-chaussée d’un hôtel particulier, rénové très récemment.</p>
+              <p>Située en plein coeur du XVIème arrondissement de Grenoble, au 2, avenue Alsace Lorraine, l'Étude occupe le rez-de-chaussée d’un hôtel particulier, rénové très récemment.</p>
               <a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-paris/" className="outline-cta white-outline">
                 <div></div>
                 Découvrir

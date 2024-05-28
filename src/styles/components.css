@@ -712,7 +712,6 @@
 }
 
 .footer-logo img {
-  width: 150px;
   margin-bottom: 20px;
 }
 
@@ -945,3 +944,4 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+

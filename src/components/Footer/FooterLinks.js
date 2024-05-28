@@ -15,17 +15,17 @@ const FooterLinks = () => {
       <div className="footer-column">
         <ul>
           <li><a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-paris/">Grenoble</a></li>
-          <li><a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-paris/">111 rue de Longchamp<br />75116 Grenoble</a></li>
-          <li><a href="tel:+33188320994">Tél : +33 (0)1 88 32 09 94</a></li>
-          <li><a href="mailto:laetitia.quesnel@paris.notaires.fr">laetitia.quesnel@paris.notaires.fr</a></li>
+          <li><a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-paris/">2 avenue Alsace Lorraine<br />38000 Grenoble</a></li>
+          <li><a href="tel:+33188320994">Tél : +33 (0)4 XX XX XX XX</a></li>
+          <li><a href="mailto:laetitia.quesnel@paris.notaires.fr">confiacte@grenoble.notaires.fr</a></li>
         </ul>
       </div>
       <div className="footer-column">
         <ul>
           <li><a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-toulouse/">Toulouse</a></li>
           <li><a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-toulouse/">30 boulevard Leclerc<br />31080 Toulouse CEDEX 6</a></li>
-          <li><a href="tel:+33534455252">Tél : +33 (0)5 34 45 52 52</a></li>
-          <li><a href="mailto:bl-notaires@notaires.fr">bl-notaires@notaires.fr</a></li>
+          <li><a href="tel:+33534455252">Tél : +33 (0)5 XX XX XX XX</a></li>
+          <li><a href="mailto:bl-notaires@notaires.fr">confiacte@notaires.fr</a></li>
         </ul>
       </div>
     </div>
