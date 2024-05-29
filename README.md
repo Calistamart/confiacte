@@ -112,4 +112,4 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 ## Contact
 
-For more information, please contact the project maintainer at [cmartinez10@myges.fr].
+For more information, please contact the project maintainer at cmartinez10@myges.fr.
