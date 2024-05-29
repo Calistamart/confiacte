@@ -1,7 +1,7 @@
 
-# BL Notaires Toulouse - React Application
+# ConfiActe Notaires - React Application
 
-This project is a React-based web application for the BL Notaires Toulouse website. It recreates the original WordPress-based site in React, ensuring a more modern, responsive, and maintainable codebase.
+This project is a React-based web application for the ConfiActe Notaires website. It is developped in React, ensuring a modern, responsive, and maintainable codebase.
 
 ## Project Structure
 
@@ -31,7 +31,7 @@ Displays the main hero section with a background image and heading.
 
 ### ExpertiseSection
 
-Showcases the expertise and services offered by BL Notaires.
+Showcases the expertise and services offered by ConfiActe Notaires.
 
 ### Navigation
 
@@ -56,7 +56,7 @@ To get started with the project, follow these steps:
 
 2. **Navigate to the project directory:**
    ```sh
-   cd bl-notaires-toulouse-react
+   cd confiacte
    ```
 
 3. **Install dependencies:**
@@ -75,8 +75,6 @@ To get started with the project, follow these steps:
 
 - React
 - React Router
-- Axios (for data fetching)
-- Styled Components (for styling)
 
 ## Available Scripts
 
