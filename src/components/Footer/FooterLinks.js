@@ -1,15 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const FooterLinks = () => {
   return (
     <div className="footer-links">
       <div className="footer-column">
         <ul>
-          <li><a href="https://www.blnotaires.fr/notaires-toulouse-paris/">L’étude</a></li>
-          <li><a href="/honoraires">Honoraires</a></li>
-          <li><a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/">Contact</a></li>
-          <li><a href="https://www.blnotaires.fr/mentions-legales/">Mentions légales</a></li>
-          <li><a href="https://www.blnotaires.fr/mentions-legales/">Politique de confidentialité</a></li>
+          <li><a href="/les-notaires">L’étude</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><Link to="/mentions-legales">Mentions légales</Link></li>
         </ul>
       </div>
       <div className="footer-column">

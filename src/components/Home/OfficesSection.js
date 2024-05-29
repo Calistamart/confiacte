@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import Logo from '../Common/Logo'
 import toulouse_img from '../../assets/toulouse.jpg'
 import grenoble_img from '../../assets/grenoble.jpg'
@@ -17,20 +18,20 @@ const OfficesSection = () => {
           </div>
             <Logo variant='dark'/>          
             <div className="offices">
-            <a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-toulouse/" className="single-office first">
+            <Link to="/page-non-trouvée" className="single-office first">
               <div className="rect-anim"></div>
               <div className="inner-single">
                 <img src={toulouse} alt="Office Toulouse" />
                 <h3>Toulouse</h3>
               </div>
-            </a>
-            <a href="https://www.blnotaires.fr/contact-notaires-toulouse-paris/etude-notaires-paris/" className="single-office second">
+            </Link>
+            <Link to="/page-non-trouvée" className="single-office second">
               <div className="rect-anim"></div>
               <div className="inner-single">
                 <img src={grenoble_img} alt="Office Grenoble" />
                 <h3>Grenoble</h3>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,19 +1,21 @@
 import React from 'react';
 import Notary from './Notary';
+import patrick_img from '../../assets/patrick.png'
+import michele_img from '../../assets/michele.png'
 
 const Notaries = () => {
   const notaries = [
     {
       name: 'Patrick Papazian',
       location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Papazian-Patrick.jpg',
-      link: 'https://www.blnotaires.fr/notaire/patrick-papazian/',
+      imageUrl: patrick_img,
+      link: '/page-non-trouvée',
     },
     {
       name: 'Michèle Sellem',
       location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/SellemMichele.jpg',
-      link: 'https://www.blnotaires.fr/notaire/michele-sellem/',
+      imageUrl: michele_img,
+      link: '/page-non-trouvée',
     },
     {
       name: 'Eric Grandjean',

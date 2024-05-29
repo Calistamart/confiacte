@@ -11,6 +11,8 @@ import ValuesSection from './components/About/ValuesSection';
 import ContactDetails from './components/Contact/ContactDetails';
 import Notaries from './components/Notaries/Notaries';
 import RealEstate from './components/About/RealEstate';
+import LegalNotice from './components/About/LegalNotice';
+import PageNotFound from './components/Common/PageNotFound';
 
 const Home = () => (
   <div>
@@ -35,6 +37,8 @@ const App = () => {
           <Route path='/immobilier' element={<RealEstate />} />
           <Route path="/contact" element={<ContactDetails />} />
           <Route path="/publications" element={<NewsSection />} />
+          <Route path="/mentions-legales" element={<LegalNotice />} />
+          <Route path="page-non-trouvée" element={<PageNotFound/>} />
         </Routes>
         <Footer />
       </div>
