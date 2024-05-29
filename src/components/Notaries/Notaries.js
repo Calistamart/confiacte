@@ -1,65 +1,37 @@
 import React from 'react';
 import Notary from './Notary';
+import patrick_img from '../../assets/patrick.png'
+import michele_img from '../../assets/michele.png'
+import eric_img from '../../assets/eric.png'
 
 const Notaries = () => {
   const notaries = [
     {
       name: 'Patrick Papazian',
       location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Papazian-Patrick.jpg',
-      link: 'https://www.blnotaires.fr/notaire/patrick-papazian/',
+      imageUrl: patrick_img,
+      description: "Patrick est un notaire éminent de Toulouse, célèbre pour sa compréhension profonde du droit et son engagement envers la justice sociale. Diplômé de l'Université de Toulouse, il a fondé son propre cabinet après avoir acquis une solide expérience dans un prestigieux cabinet de notariat. Reconnu pour sa capacité à tisser des relations significatives avec ses clients, Patrick excelle dans la gestion des affaires courantes comme les testaments et les transactions immobilières, ainsi que dans des cas de succession complexes. Actif dans sa communauté, il offre des consultations gratuites et participe à des conférences pour partager son expertise."
     },
     {
       name: 'Michèle Sellem',
       location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/SellemMichele.jpg',
-      link: 'https://www.blnotaires.fr/notaire/michele-sellem/',
+      imageUrl: michele_img,
+      description: "à compléter"
     },
     {
       name: 'Eric Grandjean',
       location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Grandjean-Eric.jpg',
-      link: 'https://www.blnotaires.fr/notaire/eric-grandjean/',
-    },
-    {
-      name: 'Mathieu Maurin',
-      location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Maurin-Mathieu.jpg',
-      link: 'https://www.blnotaires.fr/notaire/mathieu-maurin/',
-    },
-    {
-      name: 'Cécile Zampini',
-      location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Zampini-Cecile.jpg',
-      link: 'https://www.blnotaires.fr/notaire/cecile-zampini/',
-    },
-    {
-      name: 'Julien Durafourg',
-      location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Durafourg-Julien.jpg',
-      link: 'https://www.blnotaires.fr/notaire/julien-durafourg/',
-    },
-    {
-      name: 'Laetitia Quesnel',
-      location: 'Notaire Grenoble',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/Quesnel-Laetitia-1.jpg',
-      link: 'https://www.blnotaires.fr/notaire/laetitia-quesnel/',
-    },
-    {
-      name: 'Sébastien Alalouf',
-      location: 'Notaire Toulouse',
-      imageUrl: 'https://www.blnotaires.fr/wp-content/uploads/2019/03/AllaloufSebastien.jpg',
-      link: 'https://www.blnotaires.fr/notaire/sebastien-alalouf/',
+      imageUrl: eric_img,
+      description: "à compléter"
     },
   ];
 
   return (
     <div className="notaries-container">
       <section className="hero-index hero-index-notaries">
-        <div className="wrapper_el">
+<div className="wrapper_el">
           <div className="heading">
-            <h1>Les notaires associés</h1>
-            <p>&nbsp;</p>
+          <h1>Les notaires associés</h1>
           </div>
         </div>
       </section> 
@@ -72,7 +44,7 @@ const Notaries = () => {
                 name={notary.name}
                 location={notary.location}
                 imageUrl={notary.imageUrl}
-                link={notary.link}
+                description={notary.description}
               />
             ))}
         </div>

@@ -13,3 +13,35 @@
 .cursor-point {
     cursor: pointer;
 }
+
+.cards {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .cards {
+        flex-direction: column;
+    }
+}
+
+.card {
+    padding: 10px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1, 1, #666;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 800px) {
+    .footer-links {
+        flex-direction: column;
+    }
+}

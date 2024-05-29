@@ -18,18 +18,18 @@ const ExpertisesSection = () => {
             </Link>
             </li>
             <li>
-              <a href="https://www.blnotaires.fr/notaire-toulouse-particuliers/">
+              <Link to="/page-non-trouvée">
                 Patrimonial
                 <div></div>
                 <span>En savoir plus</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.blnotaires.fr/notaire-toulouse-public/">
+              <Link to="/page-non-trouvée">
                 Public
                 <div></div>
                 <span>En savoir plus</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
