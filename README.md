@@ -11,13 +11,15 @@ The project is structured as follows:
 /src
   /assets
     /images
-    /styles
+  /styles
   /components
-    /HeroSection
-    /ExpertiseSection
-    /Navigation
+    /About
+    /Common
+    /Contact
     /Footer
-    /Loader
+    /Header
+    /Home
+    /Notaries
   App.js
   index.js
   README.md
@@ -33,7 +35,7 @@ Displays the main hero section with a background image and heading.
 
 Showcases the expertise and services offered by ConfiActe Notaires.
 
-### Navigation
+### Header
 
 Handles the navigation menu, including the burger menu for mobile devices.
 
@@ -41,7 +43,7 @@ Handles the navigation menu, including the burger menu for mobile devices.
 
 Displays the footer with contact information and social media links.
 
-### Loader
+### Loading
 
 Displays a loading animation while the content is being fetched.
 
@@ -110,4 +112,4 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 
 ## Contact
 
-For more information, please contact the project maintainer at [email@example.com].
+For more information, please contact the project maintainer at [cmartinez10@myges.fr].
