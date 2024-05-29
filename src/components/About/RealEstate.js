@@ -53,20 +53,8 @@ const RealEstate = () => {
             <div className="text">
               <h2>Au service des particuliers</h2>
               <p>Pour la solution la plus adaptée à vos préoccupations et à votre cadre familial et patrimonial.</p>
-              <p><a href="https://www.blnotaires.fr/notaire-toulouse-particuliers/">Accéder à la page</a></p>
+              <p><a href="/page-non-trouvée">Accéder à la page</a></p>
             </div>
-          </div>
-        </section>
-        <section className="related-posts">
-          <div className="wrapper_1110">
-            <h3 className="section-label">News</h3>
-            <h2>Les actualités de l'Étude</h2>
-          </div>
-          <div className="wrapper_1110 inner-cards">
-            {/* Ajoutez ici les cartes des actualités */}
-          </div>
-          <div className="view-more">
-            <a href="https://www.blnotaires.fr/publications/" className="snd-cta">Plus d'actualité</a>
           </div>
         </section>
       </main>

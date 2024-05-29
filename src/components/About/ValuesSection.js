@@ -37,38 +37,12 @@ const ValuesSection = () => {
       <section className="editorial-part classic">
         <div className="wrapper_490">
           <p>
-            Être notaire à l’Étude BL, c’est également un état d’esprit, une manière d’être et de travailler ensemble à la fois humaine, loyale, exigeante, et volontaire :
+            Être notaire à l’Étude ConfiActe, c’est également un état d’esprit, une manière d’être et de travailler ensemble à la fois humaine, loyale, exigeante, et volontaire :
           </p>
           <ul>
             <li><strong>vis-à-vis des clients</strong>, par la priorité donnée à l’écoute, à la recherche de l’efficience et à la fidélisation,</li>
             <li><strong>vis-à-vis des collaborateurs</strong>, grâce à un management respectueux des personnalités ainsi qu’une ambitieuse politique de développement et de partage des compétences soutenus par des actions de formations constantes.</li>
           </ul>
-        </div>
-      </section>
-
-      <section className="editorial-part img_text">
-        <div className="inner-img">
-          <img src="https://www.blnotaires.fr/wp-content/uploads/2019/05/IMG_0726-1600x1200.jpg" alt="Notre Identité" />
-        </div>
-        <div className="wrapper_el">
-          <div className="text">
-            <h2>Notre identité</h2>
-            <p>Une étude généraliste avec des savoir-faire de spécialistes.</p>
-            <p><a href="https://www.blnotaires.fr/notaires-toulouse-paris/notre-identite/">Accéder à la page</a></p>
-          </div>
-        </div>
-      </section>
-
-      <section className="related-posts">
-        <div className="wrapper_el">
-          <h3 className="section-label">News</h3>
-          <h2>Les actualités de l'Étude</h2>
-        </div>
-        <div className="wrapper_el inner-cards">
-          {/* Ajoutez ici le contenu dynamique des actualités */}
-        </div>
-        <div className="view-more">
-          <a href="https://www.blnotaires.fr/publications/" className="snd-cta">Plus d'actualité</a>
         </div>
       </section>
     </div>
