@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Loading from './Loading';
 
 const PageNotFound = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+    }, []);
     return (
-        <div style={styles.container}>
-            <h1 style={styles.title}>404</h1>
-            <p style={styles.message}>La page que vous recherchez n'existe pas.</p>
-            <Link to="/" style={styles.link}>Retour à l'accueil</Link>
-        </div>
+        <>
+            <Loading isLoading={isLoading} />
+            {!isLoading && <div style={styles.container}>
+                <h1 style={styles.title}>404</h1>
+                <p style={styles.message}>La page que vous recherchez n'existe pas.</p>
+                <Link to="/" style={styles.link}>Retour à l'accueil</Link>
+            </div>}
+            
+        </>
     );
 }
 
