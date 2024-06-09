@@ -53,7 +53,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Calistamart/confiacte.git)
    ```
 
 2. **Navigate to the project directory:**
