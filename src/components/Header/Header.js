@@ -12,13 +12,13 @@ const Header = () => {
   return (
     <div className="nav-container">
       <div className="nav-left">
-        <a href="#" id="burger-menu" onClick={toggleMenu}>
+        <Link to="#" id="burger-menu" onClick={toggleMenu}>
           <div className={`burger ${isOpen ? 'open' : ''}`}>
             <div className="line1"></div>
             <div className="line2"></div>
             <div className="line3"></div>
           </div>
-        </a>
+        </Link>
         <div className="line_100vh"></div>
         <Logo variant='dark'/>
       </div>
@@ -27,9 +27,9 @@ const Header = () => {
         <ul className="nav-menu">
           <li><Link to="/">Accueil</Link></li>
           <li><Link to="/nos-valeurs">Nos valeurs</Link></li>
-          <li><a href="/les-notaires">Les notaires</a></li>
-          <li><a href="/publications">Publications</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link to="/les-notaires">Les notaires</Link></li>
+          <li><Link to="/publications">Publications</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     </div>
